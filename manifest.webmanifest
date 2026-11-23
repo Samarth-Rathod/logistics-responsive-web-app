@@ -1,0 +1,14 @@
+{
+  "name": "Wayline Logistics Workspace",
+  "short_name": "Wayline",
+  "description": "Shipment tracking and proof-of-delivery workspace.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f4f7fb",
+  "theme_color": "#102b46",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "logistics-responsive-web-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "api": "json-server --watch db.json --port 3001",
+    "dev:all": "concurrently \"npm run api\" \"npm run dev\"",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "jest --runInBand",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage --runInBand"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-router": "^8.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.13",
+    "@babel/preset-env": "^7.29.14",
+    "@babel/preset-react": "^7.28.5",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.3",
+    "@vitejs/plugin-react": "^6.3.0",
+    "babel-jest": "^30.5.2",
+    "concurrently": "^9.2.1",
+    "jest": "^30.5.2",
+    "jest-environment-jsdom": "^30.5.2",
+    "json-server": "0.17.4",
+    "vite": "^8.3.0",
+    "vite-plugin-pwa": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
